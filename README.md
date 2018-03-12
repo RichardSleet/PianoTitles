@@ -1,3 +1,3 @@
 # PianpTitles
-⬜⬛⬜⬜A Game of Wechat
+⬜⬛⬜⬜A Game of WeChat
 
