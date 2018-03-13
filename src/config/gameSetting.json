@@ -1,0 +1,10 @@
+{
+  "rowBlockNums": 4,
+  "colBlockNums": 4,
+  "errorClickColor": "",
+  "successClickColor": "",
+  "startSpeed": 0,
+  "accelerationSpped": 0,
+  "normalBlockColor": "balck",
+  "abnormalBlockColor": "white"
+}
