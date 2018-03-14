@@ -1,3 +1,6 @@
+/**
+ * Block块实例
+ */
 export default class block {
   constructor(x,y,width,height,color,gs,ctx){
     //block属性

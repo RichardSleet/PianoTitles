@@ -13,6 +13,7 @@ export default class Game {
     this.clickBlocksCount = 1;
     this.readyFirst = 0;
     if (!Game.gs) {
+      //加入配置过后得到的配置信息
       Game.gs = config(canvas);
     }
   }

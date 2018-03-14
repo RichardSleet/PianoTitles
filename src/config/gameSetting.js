@@ -1,4 +1,5 @@
 //import setting from './gameSetting';
+/**手动配置 */
 var setting = {
   "rowBlockNums": 4,
   "colBlockNums": 4,
