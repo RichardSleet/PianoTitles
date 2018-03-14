@@ -1,4 +1,6 @@
-
+/**
+ * 小游戏Game实例控制游戏的进度
+ */
 import config from '../config/index.js';
 import tool from '../utils/index.js';
 
