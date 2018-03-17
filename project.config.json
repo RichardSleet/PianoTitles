@@ -1,5 +1,6 @@
 {
 	"description": "别踩白块配置文件",
+  "version": "0.0.1",
 	"setting": {
 		"urlCheck": false,
 		"es6": true,

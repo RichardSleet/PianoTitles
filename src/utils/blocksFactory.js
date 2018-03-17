@@ -1,22 +1,23 @@
 import block from '../../src/game/block.js';
 import utils from '../../src/utils/utils.js';
-/*
-  gs: Object 游戏的全局配置
-  mode: String 枚举为'ready','pushRow'中的一个
+/** 
+ *   gs: Object 游戏的全局配置
+ *   mode: String 枚举为'ready','pushRow'中的一个
 */
-//游戏配置
-var gs;
+var gs; 
 var ctx;
-const blocksFactory = function _blocksFactory(setting, mode, context) {
-    ctx = context;
+const blocksFactory = function _blocksFactory(mode) {
+    ctx = wx.PTContext;
     if(!gs){
-      gs = setting;
+      gs = wx.PTConfig;
     }
     let result;
     switch(mode){
+      //绘制准备页面块
       case 'ready':
         result = readyMode();
         break;
+      //绘制一行块
       case 'pushRow':
         result = pushRowMode();
         break;
@@ -42,8 +43,6 @@ const readyMode = function _readyMode(){
           gs.aBlock.width,
           gs.aBlock.height,
           gs.prepareBlockColor,
-          gs,
-          ctx
         )
       } else {
         //黑白区域

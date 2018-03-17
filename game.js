@@ -1,2 +1,2 @@
-import main from '/src/main.js';
-main();
+import index from '/src/index.js';
+index();

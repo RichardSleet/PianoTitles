@@ -1,10 +1,23 @@
+/**
+* rowBlockNums: 每一行的块数
+* colBlockNums: 每一列的块数
+* errorClickColor: 错误点击显示的颜色
+* successClickColor: 成功点击显示的颜色
+* startSpeed: 开始速度
+* accelerationSpeed: 增加速度
+* normalBlockColor: 正常方块颜色
+* abnormalBlockColor: 不正常方块颜色
+*/
 {
   "rowBlockNums": 4,
   "colBlockNums": 4,
   "errorClickColor": "",
   "successClickColor": "",
   "startSpeed": 0,
-  "accelerationSpped": 0,
+  "accelerationSpeed": 0,
   "normalBlockColor": "balck",
-  "abnormalBlockColor": "white"
+  "abnormalBlockColor": "white",
+  "prepareBlockColor": "yellow",
+  "strokeBlock": "gray",
+  "direction": 0
 }
